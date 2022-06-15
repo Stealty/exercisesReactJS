@@ -11,6 +11,8 @@ function Exercicio7() {
         onSubmit={(event) => {
           event.preventDefault();
           alert(`Hello ${firstName} ${lastName}`);
+          setFirstName("");
+          setLastName("");
         }}
         className={styles.greet_form}
       >
